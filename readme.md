@@ -1,3 +1,3 @@
-# Kokoa clone 2022 update
+# 이제 시작이다 으아아아아
 
-CSS got so much better!
+나는 개쩔어질거다 진짜
