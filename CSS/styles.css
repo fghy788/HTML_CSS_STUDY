@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100&family=Open+Sans&display=swap");
 @import "reset.css";
-@import "status-bar.css";
+@import "components/status-bar.css";
+/*요소*/
+@import "variables.css";
+/*스크린*/
+@import "screens/login.css";
+
 
 body {
   font-family: "Noto Sans KR", sans-serif;
