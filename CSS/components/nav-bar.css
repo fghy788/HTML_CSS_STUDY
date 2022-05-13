@@ -1,0 +1,47 @@
+.nav {
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  /*박스 사이즈 변경 x*/
+  width: 100%;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0;
+}
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_link {
+  position: relative;
+}
+
+.nav_notification {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  /*사각형 길이의 절반을 쓰면 원*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  /*absolute는 가장 가까운 relative를 따라서 움직임
+    그래서 nav_link에 relative를 넣어주는것임
+  */
+  left: 15px;
+  bottom: 15px;
+}
+
+.nav_elnotification {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  display: flex;
+  position: absolute;
+  left: 30px;
+}
