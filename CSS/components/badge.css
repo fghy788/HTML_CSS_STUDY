@@ -10,3 +10,14 @@
   color: white;
   font-weight: 600;
 }
+.dot {
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  /*사각형 길이의 절반을 쓰면 원*/
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  right: -5px;
+}
