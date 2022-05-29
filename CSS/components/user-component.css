@@ -23,8 +23,12 @@
   font-size: 15px;
   margin-top: 5px;
   color: rgba(0, 0, 0, 0.3);
+  display: flex;
 }
-
+.user-component__subtitle i {
+  margin-left: 5px;
+  color: red;
+}
 .user-component__avatar--xl {
   width: 85px;
   height: 85px;
