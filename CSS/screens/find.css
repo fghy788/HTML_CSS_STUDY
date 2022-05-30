@@ -88,6 +88,27 @@
   left: 65px;
   font-size: 12px;
 }
+
+@keyframes beat_heart {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(2);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
 .open-post__heart-count span {
   margin-left: 5px;
+}
+
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: beat_heart 1s linear infinite;
 }
