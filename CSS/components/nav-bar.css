@@ -17,6 +17,18 @@
   position: relative;
 }
 
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(180deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .nav_notification {
   position: absolute;
   /*absolute는 가장 가까운 relative를 따라서 움직임
@@ -24,6 +36,7 @@
   */
   left: 15px;
   bottom: 15px;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }
 
 .nav_elnotification {
@@ -34,4 +47,17 @@
   display: flex;
   position: absolute;
   left: 30px;
+}
+
+@keyframes appearButtonanimation {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.nav_btn {
+  animation: appearButtonanimation 3s ease-in-out;
 }
